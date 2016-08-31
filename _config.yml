@@ -1,17 +1,18 @@
 # Site settings
 title: "Valaistuneet.fi"
 author: "Artanicus"
+email: help@valaistuneet.fi
 description:
   "Community front for ENL Finland"
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://beta.valaistuneet.fi" # the base hostname & protocol for your site
 source-url: "https://github.com/artanicus/artanicus.github.io/"
-permalink: "/:categories/:title"
+#permalink: "/:categories/:title"
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+#highlighter: pygments
 
 # Site defaults
 #defaults:
