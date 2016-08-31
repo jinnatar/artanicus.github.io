@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Coda", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -15,8 +15,9 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$background-color: rgba(253,253,253,0.3);
+$brand-color:      #4EBA4E;
+$brand-secondary-color: #E9F3E9;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -43,11 +44,32 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting"
 ;
+
+
+html {
+  background: url(/img/enlightened_light.png) no-repeat left center fixed;
+}
+
+// Table style
+table {
+  margin-left: 30px;
+}
+
+thead {
+  text-align: left;
+  background-color: $brand-color
+}
+
+td {
+  width: 200px;
+}
+
+tbody {
+  background-color: $brand-secondary-color
+}
