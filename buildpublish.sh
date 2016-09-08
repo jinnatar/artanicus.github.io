@@ -19,6 +19,9 @@ mv _site/* $tmp
 
 echo "Pivoting to master for content replacement"
 git checkout -B master
+echo "Making sure master is up to date"
+git pull origin
+echo "Pivoting in built site"
 rm -rf *
 mv $tmp/* .
 
@@ -33,3 +36,6 @@ git push origin master --force
 
 echo "Returning you to build branch"
 git checkout build
+
+# clean up
+rm -rf "$tmp"
