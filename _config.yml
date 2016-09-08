@@ -2,23 +2,19 @@
 title: "Valaistuneet.fi"
 author: "Artanicus"
 email: help@valaistuneet.fi
-description:
-  "Community front for ENL Finland"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://beta.valaistuneet.fi" # the base hostname & protocol for your site
+description: "The Official ENL Finland Community"
+baseurl: ""
+url: "http://beta.valaistuneet.fi"
 source-url: "https://github.com/artanicus/artanicus.github.io/"
 #permalink: "/:categories/:title"
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
 # Build settings
 markdown: kramdown
-#highlighter: pygments
 
-# Site defaults
-#defaults:
-#  -
-#    scope:
-#      path: ""
-#      type: "posts"
-#    values:
-#      category: "spells"
+gems:
+  - jekyll-multiple-languages-plugin
+
+# i18n options
+languages: ["en", "fi"]
+exclude_from_localizations: ["js", "img", "css"]

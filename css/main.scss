@@ -17,6 +17,7 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: rgba(253,253,253,0.3);
 $brand-color:      #4EBA4E;
+$brand-shader-color:  #2CA82C;
 $brand-secondary-color: #E9F3E9;
 
 $grey-color:       #828282;
@@ -63,7 +64,7 @@ table {
 
 thead {
   text-align: left;
-  background-color: $brand-color
+  background-color: $brand-color;
 }
 
 td {
@@ -71,5 +72,43 @@ td {
 }
 
 tbody {
-  background-color: $brand-secondary-color
+  background-color: $brand-secondary-color;
+}
+
+.flag {
+  line-height: 56px;
+  margin: 20px;
+}
+
+.logo {
+  margin: 1em;
+}
+
+.recruitment {
+  display: block;
+  background-color: $brand-color;
+  box-shadow: 0 1px 3px $grey-color;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: auto;
+  width: 50%;
+}
+
+.recruitment:hover {
+  background-color: $brand-shader-color;
+  background-image: linear-gradient(to bottom, $brand-shader-color, $brand-color);
+  text-decoration: none;
+}
+.recruitment:visited {
+  color: #ffffff;
+}
+
+.imgblock {
+  float: right;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 400px;
 }

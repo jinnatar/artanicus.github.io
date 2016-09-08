@@ -1,0 +1,17 @@
+global:
+  finnish: <img src="/img/finnish.png" alt="Suomeksi" />
+  english: <img src="/img/english.png" alt="In English" />
+
+titles:
+  tutors: Tuutorit
+  about: Tietoa
+  news: Uutiset
+  join: Liity
+  
+index:
+  recruitment: "Liity nyt!"
+
+tutors:
+  area: Alue
+  nick: Nimimerkki
+  nicks: Nimimerkit
