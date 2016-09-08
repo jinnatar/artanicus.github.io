@@ -7,7 +7,7 @@ baseurl: ""
 url: "http://beta.valaistuneet.fi"
 source-url: "https://github.com/artanicus/artanicus.github.io/"
 #permalink: "/:categories/:title"
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'buildpublish.sh']
 
 # Build settings
 markdown: kramdown
