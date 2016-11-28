@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valaistuneet.fi</title>
+    <description>The Official ENL Finland Community</description>
+    <link>http://beta.valaistuneet.fi/fi/</link>
+    <atom:link href="http://beta.valaistuneet.fi/fi/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 28 Nov 2016 21:17:00 +0200</pubDate>
+    <lastBuildDate>Mon, 28 Nov 2016 21:17:00 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Beta saitti, varo kuoppia</title>
+        <description>&lt;p&gt;Olemme keskella nettisivu-uudistusta joten siellataalla on viela hieman keskeneraista!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 Aug 2016 15:52:49 +0300</pubDate>
+        <link>http://beta.valaistuneet.fi/fi/beta/site/2016/08/31/beta-site.html</link>
+        <guid isPermaLink="true">http://beta.valaistuneet.fi/fi/beta/site/2016/08/31/beta-site.html</guid>
+        
+        
+        <category>beta</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+  </channel>
+</rss>
