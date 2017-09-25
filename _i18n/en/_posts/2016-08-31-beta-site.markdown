@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Beta site, here be dragons"
-date:   2016-08-31 15:52:49 +0300
-categories: beta site
----
-The current site is very much a beta version and still missing large chunks. Sorry!

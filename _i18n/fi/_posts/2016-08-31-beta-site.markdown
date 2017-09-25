@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Beta saitti, varo kuoppia"
-date:   2016-08-31 15:52:49 +0300
-categories: beta site
----
-
-Olemme keskella nettisivu-uudistusta joten siellataalla on viela hieman keskeneraista!
