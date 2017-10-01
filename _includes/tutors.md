@@ -8,7 +8,7 @@
 | Jyväskylä | ymy |
 | Kuopio | cheaea |
 | Lahti	| loiste, singulariteetti, JohnDarkwind |
-| Lappeenranta | Alienaamor |
+| Lappeenranta | hzMazu |
 | Lieksa | Re5pect |
 | Oulu | Tinde |
 | Satakunta | LaFumar |
