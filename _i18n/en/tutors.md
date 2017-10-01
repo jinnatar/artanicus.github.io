@@ -2,4 +2,4 @@ New agents are encouraged to contact other local players. The players listed her
 
 Again, even if no-one is listed for your area, all older agents are glad to help newcomers. Get in touch.
 
-{% include tutors.html %}
+{% include tutors.md %}
