@@ -1,7 +1,7 @@
 | Area | Tutor nick |
 |-------|--------|---------|
 | Espoo | Edomir, Kipuna |
-| Hamina / Kotka | Kummatus, Artanicus |
+| Hamina / Kotka | Kummatus |
 | Hanko	| RiiTrai |
 | Helsinki | Elaenia, kopedankissa |
 | Joensuu | salakavala |
