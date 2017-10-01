@@ -2,4 +2,4 @@ Uusia agentteja kannustetaan ottamaan yhteyttä toisiin paikallisiin pelaajiin. 
 
 Vaikka sinun paikkakunnallesi ei olisi erillistä tuutoria listattu, kaikki vanhat agentit auttavat mielellään tulokkaita. Ole yhteydessä.
 
-{% include tutors.html %}
+{% include tutors.md %}
