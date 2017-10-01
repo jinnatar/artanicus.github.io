@@ -20,7 +20,7 @@ mv _site/* $tmp
 echo "Pivoting to master for content replacement"
 git checkout -B master
 echo "Making sure master is up to date"
-git pull origin
+git pull origin master
 echo "Pivoting in built site"
 rm -rf *
 mv $tmp/* .
