@@ -15,17 +15,9 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{% t my_page.title %}</a>
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{% my_page.title %}</a>
           {% endif %}
         {% endfor %}
-      {% if site.lang == "fi" %}
-      {% capture link_en %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-        <a class="flag" href="{{ link_en }}" >{% t global.english %}</a>
-      {% elsif site.lang == "en" %}
-        {% capture link_fi %}{{ site.baseurl_root }}fi{{ page.url }}{% endcapture %}
-        <a class="flag" href="{{ link_fi }}" >{% t global.finnish %}</a>
-      {% endif %}
-
       </div>
     </nav>
 
