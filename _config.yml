@@ -2,19 +2,12 @@
 title: "Valaistuneet.fi"
 author: "Artanicus"
 email: help@valaistuneet.fi
-description: "The Official ENL Finland Community"
+description: "Suomen Virallinen ENL-yhteisö"
 baseurl: ""
-url: "http://beta.valaistuneet.fi"
+url: "http://www.valaistuneet.fi"
 source-url: "https://github.com/artanicus/artanicus.github.io/"
 #permalink: "/:categories/:title"
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'buildpublish.sh']
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - jekyll-multiple-languages-plugin
-
-# i18n options
-languages: ["en", "fi"]
-exclude_from_localizations: ["js", "img", "css"]
