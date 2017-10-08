@@ -1,4 +1,4 @@
-| Area | Tutor nick |
+| Alue | Tuutorin nimimerkki |
 |-------|--------|---------|
 | Espoo | Edomir, Kipuna |
 | Hamina / Kotka | Kummatus |
