@@ -11,3 +11,5 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'buildpublish.sh']
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-cayman
